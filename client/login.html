@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login — CodeAlpha Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">Code<span>Alpha</span> Shop</a>
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="cart.html">Cart</a>
+                <a href="login.html" id="navLogin" class="active">Login</a>
+                <a href="register.html" id="navRegister">Register</a>
+                <button type="button" id="navLogout" class="nav-logout hidden">Logout</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-content auth-page">
+        <div class="auth-card">
+            <h1>Welcome back</h1>
+            <p class="subtitle">Sign in to your account to continue</p>
+
+            <form id="loginForm">
+                <input type="email" id="email" placeholder="Email address" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Sign In</button>
+            </form>
+
+            <p class="auth-footer">
+                No account? <a href="register.html">Create one</a>
+            </p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <span>&copy; 2026 CodeAlpha Shop</span>
+            <span>Built with care</span>
+        </div>
+    </footer>
+
+    <script src="js/toast.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
