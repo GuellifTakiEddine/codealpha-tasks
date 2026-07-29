@@ -24,10 +24,9 @@ async function loadProducts() {
 
 }
 
-function viewProduct(id){
-
+function viewProduct(id) {
+    console.log("Product ID:", id);
     window.location.href = `product.html?id=${id}`;
-
 }
 
 loadProducts();

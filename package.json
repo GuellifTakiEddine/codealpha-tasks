@@ -1,0 +1,10 @@
+{
+  "name": "task1-ecommerce",
+  "private": true,
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "http-server client -p 5500 -c-1"
+   
+  }
+  
+}
