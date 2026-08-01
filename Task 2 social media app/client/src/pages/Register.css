@@ -1,0 +1,143 @@
+﻿.authPage{
+
+    min-height:100vh;
+
+    display:grid;
+
+    grid-template-columns:1fr 450px;
+
+    background:#edf2f7;
+
+}
+
+.leftSide{
+
+    background:linear-gradient(135deg,#1877f2,#0d47a1);
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    padding:80px;
+
+}
+
+.leftSide h1{
+
+    font-size:70px;
+
+    margin-bottom:20px;
+
+}
+
+.leftSide p{
+
+    font-size:22px;
+
+    line-height:1.7;
+
+}
+
+.authCard{
+
+    background:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    padding:60px;
+
+}
+
+.authCard h2{
+
+    margin-bottom:30px;
+
+}
+
+.authCard form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.authCard input{
+
+    padding:16px;
+
+    border-radius:12px;
+
+    border:1px solid #ddd;
+
+    font-size:16px;
+
+}
+
+.authCard button{
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#1877f2;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.authCard button:hover{
+
+    background:#125fd1;
+
+}
+
+.authCard p{
+
+    margin-top:25px;
+
+}
+
+.authCard a{
+
+    color:#1877f2;
+
+    margin-left:5px;
+
+    font-weight:bold;
+
+}
+
+@media(max-width:900px){
+
+.authPage{
+
+grid-template-columns:1fr;
+
+}
+
+.leftSide{
+
+display:none;
+
+}
+
+}
