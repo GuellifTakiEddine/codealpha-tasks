@@ -1,0 +1,47 @@
+.profileCard{
+
+background:white;
+
+padding:25px;
+
+border-radius:18px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+text-align:center;
+
+position:sticky;
+
+top:90px;
+
+}
+
+.profileCard img{
+
+width:90px;
+
+height:90px;
+
+border-radius:50%;
+
+margin:auto;
+
+margin-bottom:20px;
+
+}
+
+.numbers{
+
+display:flex;
+
+justify-content:space-between;
+
+margin-top:30px;
+
+}
+
+.numbers h3{
+
+color:#1877f2;
+
+}

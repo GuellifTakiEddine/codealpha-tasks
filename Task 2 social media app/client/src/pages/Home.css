@@ -1,0 +1,59 @@
+.home{
+
+    width:1400px;
+
+    margin:30px auto;
+
+    display:grid;
+
+    grid-template-columns:260px minmax(0,1fr) 300px;
+
+    gap:30px;
+
+    align-items:start;
+
+}
+
+.feed{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+@media(max-width:1300px){
+
+.home{
+
+width:95%;
+
+grid-template-columns:240px 1fr;
+
+}
+
+.rightbar{
+
+display:none;
+
+}
+
+}
+
+@media(max-width:900px){
+
+.home{
+
+grid-template-columns:1fr;
+
+}
+
+.sidebar{
+
+display:none;
+
+}
+
+}
